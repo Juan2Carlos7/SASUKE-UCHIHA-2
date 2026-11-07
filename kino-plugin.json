@@ -1,7 +1,7 @@
 {
   "id": "theme-sasuke-uchiha2",
   "name": "Sasuke Uchiha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
