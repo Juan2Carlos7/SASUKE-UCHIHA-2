@@ -1,0 +1,405 @@
+{
+  "id": "theme-sasuke-uchiha",
+  "name": "Sasuke Uchiha",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Temas inspirados en Sasuke Uchiha: Sharingan, Rinnegan y Chidori",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "sasuke",
+      "name": {
+        "es": "Sasuke Uchiha",
+        "en": "Sasuke Uchiha"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#E0242B",
+        "onAccent": "#FFFFFF",
+        "background": "#06060C",
+        "surface": "#12121F",
+        "surfaceHigh": "#1E1C30",
+        "railPanel": "#0A0A14",
+        "textPrimary": "#F2EEF8",
+        "textSecondary": "#B9B4CC",
+        "focus": "#FF3B3B",
+        "onFocus": "#000000",
+        "outline": "#3A2A55",
+        "favorite": "#E0242B"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#06060C",
+          "#1A0F2E",
+          "#06060C"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 10,
+        "channelRadius": 10,
+        "chipRadius": 10,
+        "inputRadius": 10,
+        "buttonRadius": 20,
+        "dialogRadius": 16
+      },
+      "elevation": {
+        "cardShadow": 0.6,
+        "dialogShadow": 0.8,
+        "heroScrim": 0.7
+      },
+      "motion": {
+        "focusZoom": 1.06,
+        "crossfadeMs": 400,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonShape": "circle",
+        "playButtonScale": 1.2
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            112,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1 A14 14 0 1 0 15 29 A14 14 0 1 0 15 1 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 4.4 A10.6 10.6 0 1 0 15 25.6 A10.6 10.6 0 1 0 15 4.4 Z",
+              "fill": "#06060C"
+            },
+            {
+              "d": "M15 5.4 A9.6 9.6 0 1 0 15 24.6 A9.6 9.6 0 1 0 15 5.4 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15.0 12.0 Q16.5 7.0 21.5 5.6 Q18.6 9.4 17.6 13.2 Z M17.6 16.5 Q21.18 20.3 19.89 25.33 Q18.05 20.92 15.26 18.15 Z M12.4 16.5 Q7.32 17.7 3.61 14.07 Q8.35 14.68 12.14 13.65 Z M15 12 A3 3 0 1 0 15 18 A3 3 0 1 0 15 12 Z",
+              "fill": "#06060C"
+            },
+            {
+              "d": "M36 8H39V22H36Z M39 14L44 8H47.5L41 15.5Z M41 13.5L47.5 22H44L39 16Z M50 8H53V22H50Z M56 8H59V22H56Z M63 8H66V22H63Z M59 8H61L66 17V22H64L59 13Z M69 8H79V22H69Z M72 11V19H76V11Z M86 8H96V11H92.5V22H89.5V11H86Z M99 8H102L104.5 18L107 8H110L106 22H103Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1 A14 14 0 1 0 15 29 A14 14 0 1 0 15 1 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 4.4 A10.6 10.6 0 1 0 15 25.6 A10.6 10.6 0 1 0 15 4.4 Z",
+              "fill": "#06060C"
+            },
+            {
+              "d": "M15 5.4 A9.6 9.6 0 1 0 15 24.6 A9.6 9.6 0 1 0 15 5.4 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15.0 12.0 Q16.5 7.0 21.5 5.6 Q18.6 9.4 17.6 13.2 Z M17.6 16.5 Q21.18 20.3 19.89 25.33 Q18.05 20.92 15.26 18.15 Z M12.4 16.5 Q7.32 17.7 3.61 14.07 Q8.35 14.68 12.14 13.65 Z M15 12 A3 3 0 1 0 15 18 A3 3 0 1 0 15 12 Z",
+              "fill": "#06060C"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#E0242B",
+            "#FF3B3B",
+            "#9B6BFF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 20
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      }
+    },
+    {
+      "id": "rinnegan",
+      "name": {
+        "es": "Rinnegan",
+        "en": "Rinnegan"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#A77BFF",
+        "onAccent": "#000000",
+        "background": "#07050D",
+        "surface": "#141022",
+        "surfaceHigh": "#201A33",
+        "railPanel": "#0C0916",
+        "textPrimary": "#F2EEF8",
+        "textSecondary": "#BCB2D6",
+        "focus": "#C9A8FF",
+        "onFocus": "#000000",
+        "outline": "#3F2D66",
+        "favorite": "#A77BFF"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#07050D",
+          "#1B1033",
+          "#07050D"
+        ],
+        "angle": 160
+      },
+      "shape": {
+        "cardRadius": 8,
+        "channelRadius": 8,
+        "chipRadius": 8,
+        "inputRadius": 8,
+        "buttonRadius": 16,
+        "dialogRadius": 14
+      },
+      "elevation": {
+        "cardShadow": 0.6,
+        "dialogShadow": 0.8,
+        "heroScrim": 0.7
+      },
+      "motion": {
+        "focusZoom": 1.06,
+        "crossfadeMs": 400,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonShape": "circle",
+        "playButtonScale": 1.2
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            112,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1 A14 14 0 1 0 15 29 A14 14 0 1 0 15 1 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 3.1999999999999993 A11.8 11.8 0 1 0 15 26.8 A11.8 11.8 0 1 0 15 3.1999999999999993 Z",
+              "fill": "#07050D"
+            },
+            {
+              "d": "M15 4.6 A10.4 10.4 0 1 0 15 25.4 A10.4 10.4 0 1 0 15 4.6 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 7.4 A7.6 7.6 0 1 0 15 22.6 A7.6 7.6 0 1 0 15 7.4 Z",
+              "fill": "#07050D"
+            },
+            {
+              "d": "M15 8.8 A6.2 6.2 0 1 0 15 21.2 A6.2 6.2 0 1 0 15 8.8 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 12 A3 3 0 1 0 15 18 A3 3 0 1 0 15 12 Z",
+              "fill": "#07050D"
+            },
+            {
+              "d": "M36 8H39V22H36Z M39 14L44 8H47.5L41 15.5Z M41 13.5L47.5 22H44L39 16Z M50 8H53V22H50Z M56 8H59V22H56Z M63 8H66V22H63Z M59 8H61L66 17V22H64L59 13Z M69 8H79V22H69Z M72 11V19H76V11Z M86 8H96V11H92.5V22H89.5V11H86Z M99 8H102L104.5 18L107 8H110L106 22H103Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1 A14 14 0 1 0 15 29 A14 14 0 1 0 15 1 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 3.1999999999999993 A11.8 11.8 0 1 0 15 26.8 A11.8 11.8 0 1 0 15 3.1999999999999993 Z",
+              "fill": "#07050D"
+            },
+            {
+              "d": "M15 4.6 A10.4 10.4 0 1 0 15 25.4 A10.4 10.4 0 1 0 15 4.6 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 7.4 A7.6 7.6 0 1 0 15 22.6 A7.6 7.6 0 1 0 15 7.4 Z",
+              "fill": "#07050D"
+            },
+            {
+              "d": "M15 8.8 A6.2 6.2 0 1 0 15 21.2 A6.2 6.2 0 1 0 15 8.8 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 12 A3 3 0 1 0 15 18 A3 3 0 1 0 15 12 Z",
+              "fill": "#07050D"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#A77BFF",
+            "#C9A8FF",
+            "#E0242B"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 20
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      }
+    },
+    {
+      "id": "chidori",
+      "name": {
+        "es": "Chidori",
+        "en": "Chidori"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#3DA9FF",
+        "onAccent": "#000000",
+        "background": "#04070D",
+        "surface": "#0F1622",
+        "surfaceHigh": "#192335",
+        "railPanel": "#08101A",
+        "textPrimary": "#F2EEF8",
+        "textSecondary": "#AFC0D6",
+        "focus": "#7CC6FF",
+        "onFocus": "#000000",
+        "outline": "#24405F",
+        "favorite": "#3DA9FF"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#04070D",
+          "#0A1A33",
+          "#04070D"
+        ],
+        "angle": 135
+      },
+      "shape": {
+        "cardRadius": 4,
+        "channelRadius": 4,
+        "chipRadius": 4,
+        "inputRadius": 4,
+        "buttonRadius": 8,
+        "dialogRadius": 10
+      },
+      "elevation": {
+        "cardShadow": 0.6,
+        "dialogShadow": 0.8,
+        "heroScrim": 0.7
+      },
+      "motion": {
+        "focusZoom": 1.06,
+        "crossfadeMs": 400,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonShape": "circle",
+        "playButtonScale": 1.2
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            112,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1 A14 14 0 1 0 15 29 A14 14 0 1 0 15 1 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 4.4 A10.6 10.6 0 1 0 15 25.6 A10.6 10.6 0 1 0 15 4.4 Z",
+              "fill": "#04070D"
+            },
+            {
+              "d": "M15 5.4 A9.6 9.6 0 1 0 15 24.6 A9.6 9.6 0 1 0 15 5.4 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15.0 12.0 Q16.5 7.0 21.5 5.6 Q18.6 9.4 17.6 13.2 Z M17.6 16.5 Q21.18 20.3 19.89 25.33 Q18.05 20.92 15.26 18.15 Z M12.4 16.5 Q7.32 17.7 3.61 14.07 Q8.35 14.68 12.14 13.65 Z M15 12 A3 3 0 1 0 15 18 A3 3 0 1 0 15 12 Z",
+              "fill": "#04070D"
+            },
+            {
+              "d": "M36 8H39V22H36Z M39 14L44 8H47.5L41 15.5Z M41 13.5L47.5 22H44L39 16Z M50 8H53V22H50Z M56 8H59V22H56Z M63 8H66V22H63Z M59 8H61L66 17V22H64L59 13Z M69 8H79V22H69Z M72 11V19H76V11Z M86 8H96V11H92.5V22H89.5V11H86Z M99 8H102L104.5 18L107 8H110L106 22H103Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 1 A14 14 0 1 0 15 29 A14 14 0 1 0 15 1 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 4.4 A10.6 10.6 0 1 0 15 25.6 A10.6 10.6 0 1 0 15 4.4 Z",
+              "fill": "#04070D"
+            },
+            {
+              "d": "M15 5.4 A9.6 9.6 0 1 0 15 24.6 A9.6 9.6 0 1 0 15 5.4 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15.0 12.0 Q16.5 7.0 21.5 5.6 Q18.6 9.4 17.6 13.2 Z M17.6 16.5 Q21.18 20.3 19.89 25.33 Q18.05 20.92 15.26 18.15 Z M12.4 16.5 Q7.32 17.7 3.61 14.07 Q8.35 14.68 12.14 13.65 Z M15 12 A3 3 0 1 0 15 18 A3 3 0 1 0 15 12 Z",
+              "fill": "#04070D"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#3DA9FF",
+            "#7CC6FF",
+            "#A77BFF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 20
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      }
+    }
+  ]
+}
